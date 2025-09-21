@@ -273,9 +273,9 @@ const Home = () => {
               <button className="btn shadow rounded-xl btn-default btn-soft font-medium bg-base-100">
                 <MdOutlineGroup className="text-secondary" /> Group order
               </button>
-              <button className="btn shadow rounded-xl btn-default btn-soft font-medium bg-base-100">
+              <button className="btn shadow rounded-xl btn-default btn-soft font-medium bg-base-100" onClick={()=>{navigate("/dashboard/home")}}>
                 <FaBell className="text-secondary" />
-                call
+                Admin
               </button>
             </div>
           </div>

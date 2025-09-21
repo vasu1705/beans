@@ -7,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -35,6 +33,5 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.12",
     "vite": "^7.1.2"
-  },
-  "homepage": "https://vasu1705.github.io/your-repo"
+  }
 }

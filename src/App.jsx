@@ -1,7 +1,7 @@
 import React from "react"
 import { Route, Routes } from "react-router-dom"
 import LoginUser from "./pages/LoginUser"
-import Home from "./pages/home"
+import Home from "./pages/Home"
 import { OrderBilling } from "./components/order-summary/OrderBilling"
 import { AddFoodItem } from "./components/add-item/AddFoodItem"
 import { DashboardLayout } from "./components/dashboard/DashboardLayout"
